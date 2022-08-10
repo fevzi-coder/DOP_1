@@ -27,6 +27,7 @@ function App() {
         <div className="App">
             <Button name={"CleanPage"} callBack={getRequestHandler}/>
             <p></p><p></p>
+            <p></p><p></p>
             <ul>
                 {get.map((el)=> {
                     return(
